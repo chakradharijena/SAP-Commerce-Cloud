@@ -1,27 +1,27 @@
 <context component="explorer-tree" parent="auto" merge-by="module">
-		<n:explorer-tree>
-			<n:navigation-node id="Test Cloud" >
-				<n:type-node id="Test-Cloud" code="TestCloud" expanded-by-default="true" />
-			</n:navigation-node>
+	<n:explorer-tree>
+		<n:navigation-node id="Test Cloud" >
+			<n:type-node id="Test-Cloud" code="TestCloud" expanded-by-default="true" />
+		</n:navigation-node>
 
-			<n:navigation-node id="node 1">
-				<n:navigation-node id="sample 1.1">
-					<n:navigation-node id="sample 1.1.1" />
-				</n:navigation-node>
-				<n:navigation-node id="sample 1.2">
-					<n:navigation-node id="sample 1.2.1" />
-				</n:navigation-node>
+		<n:navigation-node id="node 1">
+			<n:navigation-node id="sample 1.1">
+				<n:navigation-node id="sample 1.1.1" />
 			</n:navigation-node>
-
-			<n:navigation-node id="sample 2">
-				<n:navigation-node id="sample 2.1" />
+			<n:navigation-node id="sample 1.2">
+				<n:navigation-node id="sample 1.2.1" />
 			</n:navigation-node>
-		</n:explorer-tree>
-	</context>
+		</n:navigation-node>
 
-	<context type="TestCloud" component="simple-search">
-		<yss:simple-search >
-			<yss:field name="siteId"/>
-			<yss:field name="code"/>
-		</yss:simple-search>
-	</context>
+		<n:navigation-node id="sample 2">
+			<n:navigation-node id="sample 2.1" />
+		</n:navigation-node>
+	</n:explorer-tree>
+</context>
+
+<context type="TestCloud" component="simple-search">
+	<yss:simple-search >
+		<yss:field name="siteId"/>
+		<yss:field name="code"/>
+	</yss:simple-search>
+</context>
