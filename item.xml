@@ -1,0 +1,16 @@
+<itemtypes>
+		<itemtype code="TestCloud" extends="GenericItem"
+				  autocreate="true" generate="true">
+			<deployment table="TestCloud" typecode="11099" />
+			<attributes>
+				<attribute qualifier="code" type="java.lang.String">
+					<modifiers read="true" write="true" search="true"
+							   unique="true" optional="false" />
+					<persistence type="property" />
+				</attribute>
+				<attribute qualifier="siteId" type="java.lang.String">
+					<modifiers read="true" write="true" search="true" optional="false"/>
+					<persistence type="property" />
+				</attribute>
+			</attributes>
+ </itemtype>
